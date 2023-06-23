@@ -82,7 +82,7 @@ while checkWin(matrix) == None and any(map(lambda x:x=="",matrix)):
 
     matrix = canvas.getMatrix()
     canvas.choice = True
-
+    
 winner = checkWin(matrix)
 if winner == None:
     for b in bots:
